@@ -2,7 +2,7 @@
 <body>
  
 <?php    
-$num = 9;  
+$num = 1;  
 for($i=1; $i<=10; $i++)   
 {
 $product = $i*$num;
