@@ -1,7 +1,10 @@
 <html>
 <body>
- 
-<?php    
+ <script language="javascript">
+     const number = parseInt(prompt('Enter an integer: '));
+ </script>
+<?php 
+  
 $num = 1;  
 for($i=1; $i<=10; $i++)   
 {
