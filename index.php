@@ -1,8 +1,9 @@
 <html>
 <body>
 
-<?php
-$num=$_POST['value'];
+<?php 
+  
+$num = 1;  
 for($i=1; $i<=10; $i++)   
 {
 $multiple = $i*$num;
