@@ -1,9 +1,8 @@
 <html>
 <body>
-<script language= "javascript">
-         $num = prompt ("please input 1st Number")
-</script>
+
 <?php 
+$num= $_POST['Enter Number']
 for($i=1; $i<=10; $i++)  
 {
 $multiple = $i*$num;
@@ -13,3 +12,4 @@ echo '<br>';
 ?>  
 </body>
 </html>
+hckrherkhk
