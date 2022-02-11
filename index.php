@@ -3,12 +3,12 @@
 
 <form Method="post">
 <br><br>
-Enter number:<input type="text" name="value"/><br><br>
-<input type="submit" name="btn" value="print table" />
+Enter any number:<input type="text" name="value"/><br><br>
+<input type="submit" name="button" value="print table" />
  
 </form>
 <?php 
-if(isset($_POST['btn']))
+if(isset($_POST['button']))
 {
 $num=$_POST['value'];
 for($i=1; $i<=10; $i++)  
